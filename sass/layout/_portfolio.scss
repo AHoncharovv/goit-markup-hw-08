@@ -46,11 +46,6 @@
   }
 }
 
-// .product-example {
-//   display: flex;
-//   flex-wrap: wrap;
-// }
-
 .product-example__modal {
   position: relative;
   overflow: hidden;
@@ -95,13 +90,6 @@
   }
 }
 
-// стояло внутри .product-example__list
-//   &:nth-child(3n) {
-//     margin-right: 0px;
-//   }
-//   &:nth-last-child(-n + 3) {
-//     margin-bottom: 0px;
-//   }
 .product-example__list {
   @media screen and(max-width: 767px) {
     max-width: 450px;
