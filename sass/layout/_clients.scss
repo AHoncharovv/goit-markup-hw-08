@@ -8,7 +8,18 @@
   margin-bottom: 30px;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and(max-width: 480px) {
+  .clients__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .clients__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 480px) {
   .clients__list {
     display: flex;
     flex-wrap: wrap;
