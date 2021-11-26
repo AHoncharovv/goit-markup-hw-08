@@ -117,7 +117,7 @@ img {
 
 .header__section {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   position: relative;
 }
 
@@ -356,7 +356,7 @@ img {
 @media screen and (min-width: 768px) {
   .pages__link--focus::after {
     left: 0%;
-    bottom: -24px;
+    bottom: -35px;
   }
 }
 
@@ -447,7 +447,6 @@ img {
 @media screen and (min-width: 1200px) {
   .menu-nav {
     display: flex;
-    align-items: baseline;
     flex-wrap: nowrap;
     margin-left: 305px;
   }
